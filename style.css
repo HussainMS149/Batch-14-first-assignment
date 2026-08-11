@@ -1,0 +1,7 @@
+.nav_display{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_display ul li{
+    
+} 
