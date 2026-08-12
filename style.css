@@ -1,7 +1,44 @@
-.nav_display{
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(206, 205, 205);
+}
+
+nav{
     display: flex;
     justify-content: space-between;
-}
-.nav_display ul li{
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px 0;
+    align-items: center;
     
-} 
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.btn_style{
+    padding: 9px 15px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+button:hover{
+    color: rgb(26, 1, 56)
+    
+}
+
