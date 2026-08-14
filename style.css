@@ -145,7 +145,7 @@ button:hover {
     padding-left: 20px;
 }
 
-.speaker{
+.h1{
     font-size: 50px;
     text-align: center;
     padding: 45px 0;
@@ -161,7 +161,7 @@ button:hover {
 .speaker_card_box{
     border: 1px solid rgb(230, 228, 228);
     width: 575px;
-    height: 460px;
+    height: 420px;
     border-radius: 7px;
     overflow: hidden;
 }
@@ -179,4 +179,86 @@ button:hover {
     margin: 0 auto;
     padding: 0 20px;                       /* Optional: Keeps it off screen edges */
     box-sizing: border-box;    
+}
+
+
+
+/* Pricing section start */
+
+.pricing_card_box{
+    border: 1px solid rgb(231, 230, 230);
+    background-color: #F8F9FB;
+    border-radius: 7px;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    
+}
+
+.pricing_section{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.pricing_card_box .p3{
+    color: #616060bd;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.pricing_card_box .p4{
+    color: #616060bd;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.pricing_section h1{
+    font-size: 45px;
+}
+
+.pricing_section ul li{
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.pricing_section ul{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.pricing_btn{
+    color: #1f49bd;
+    font-weight: 600;
+    padding: 15px 92px;
+    margin: auto;
+    display: flex;
+    border-radius: 7px;
+    border: 2px solid rgba(13, 13, 216, 0.226);
+}
+
+.pricing_card_box .btn_style{
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 92px;
+    margin: auto;
+    display: flex;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.pro_section .p3{
+    color: #587fe9;
+}
+
+.pro_section .p4{
+    color: #ababac;
+}
+
+.pricing_card_box .pro_ul_list li{
+    color: #e6e6e6c3;
+    font-weight: thin;
 }
